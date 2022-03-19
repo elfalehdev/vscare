@@ -11,6 +11,7 @@
 	],
 	"activationEvents": [
 		"*",
+		"vscare",
         "onCommand:vscare.helloWorld"
 	],
 	"main": "./out/extension.js",
@@ -19,6 +20,11 @@
 			{
 				"command": "vscare",
 				"title": "vscare"
+			},
+			{
+				"command": "vscare.Test",
+				"title": "vscare Test",
+				"category": "vscare"
 			}
 		]
 	},
