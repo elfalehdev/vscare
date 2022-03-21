@@ -1,7 +1,11 @@
 # VsCare
+<quote>“When health is absent, wisdom cannot reveal itself, art cannot manifest, strength cannot fight, wealth becomes useless, and intelligence cannot be applied.” ― Herophilus</quote>
 
-What's vscare ❓
-Vscare is a vscode extension that takes care of you. I am building this extension so it take care of developers while coding i.e. their coding rhythm and health - Like How? 😕
-Developers don't really care how many hours they keep staring at their screens with bad postures.  
+<hr>
+Vscare is a vscode extension that takes care of you. ✔️
+<br>
 
-VsCare is going to be a good reminder for you and guide you through a happy coding session. ✔️
+## Features 
+* Notifier for better timing management
+* Track your coding time and send alerts to take breaks 
+* Help you out when you get stuck [vscare.help]
