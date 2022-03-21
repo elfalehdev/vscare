@@ -1,6 +1,7 @@
 import * as vscode from 'vscode';
 import { HelloWorldPanel } from './HelloWorldPanel';
 export function activate(context: vscode.ExtensionContext) {
+  vscode.window.showInformationMessage("yes it is starting out");
 
   context.subscriptions.push(
     vscode.commands.registerCommand("vscare.Test",() => {

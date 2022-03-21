@@ -4,6 +4,7 @@ exports.deactivate = exports.activate = void 0;
 const vscode = require("vscode");
 const HelloWorldPanel_1 = require("./HelloWorldPanel");
 function activate(context) {
+    vscode.window.showInformationMessage("yes it is starting out");
     context.subscriptions.push(vscode.commands.registerCommand("vscare.Test", () => {
         HelloWorldPanel_1.HelloWorldPanel.createOrShow(context.extensionUri);
     }));
